@@ -1,0 +1,9 @@
+controller:
+  - cn.jmu.assgin.controller.LoginController
+  - cn.jmu.assgin.controller.MessageController
+  - cn.jmu.assgin.controller.RevertController
+jdbcConfig:
+  driver: com.mysql.cj.jdbc.Driver
+  url: jdbc:mysql://pressed.top:3306/exp5?serverTimezone=UTC&allowMultiQueries=true&characterEncoding=utf-8
+  username: root
+  password: xianka
